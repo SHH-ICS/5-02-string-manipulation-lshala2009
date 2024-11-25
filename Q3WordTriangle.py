@@ -5,3 +5,9 @@
 # PYTH
 # PYTHO
 # PYTHON
+
+#Q3 Word Triangle. 
+
+text = input("Enter word : ")
+for index in range(len(text)): 
+    print(text[:index + 1])
